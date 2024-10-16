@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Đăng Nhập</title>
+    <link rel="stylesheet" href="DangNhap.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Đăng nhập</h2>
+            <form>
+                <input type="text" placeholder="Tên người dùng" required>
+                <input type="password" placeholder="Mật khẩu" required>
+                <div class="social-login">
+                    <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=344190606773871&kid_directed_site=0&app_id=344190606773871&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv19.0%2Fdialog%2Foauth%3Fclient_id%3D344190606773871%26redirect_uri%3Dhttps%253A%252F%252Fauthenticate.riotgames.com%252Fredirects%252Ffacebook%26state%3D04633d847bca343b043bc7b6a7950eb0c6bbd93c5de3b0db51a4cc9cd1b2%26scope%3Demail%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D5219195b-3943-44f7-9245-dd2a4a6fceef%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fauthenticate.riotgames.com%2Fredirects%2Ffacebook%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D04633d847bca343b043bc7b6a7950eb0c6bbd93c5de3b0db51a4cc9cd1b2%23_%3D_&display=page&locale=vi_VN&pl_dbl=0" class="social-btn facebook">
+                        <img src="img/Fb.png" alt="Facebook">
+                    </a>
+                    <a href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?client_id=187685766663-ct6bdnthcq6jlllecpg1guhthoc7i8vv.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fauthenticate.riotgames.com%2Fredirects%2Fgoogle&state=92dd04ebb4e8029bdb6297a4cc97a90f273046751947465e5e82de598686&response_type=code&access_type=online&prompt=select_account&scope=openid%20profile%20email&service=lso&o2v=2&ddm=0&flowName=GeneralOAuthFlow" class="social-btn google">
+                        <img src="img/gg.png" alt="Google">
+                    </a>
+                    <a href="https://appleid.apple.com/auth/authorize?response_type=code%20id_token&response_mode=form_post&client_id=com.riotgames.authenticator.prod.client&redirect_uri=https%3A%2F%2Fauthenticate.riotgames.com%2Fredirects%2Fapple&scope=name%20email&nonce=0dd9c31a82682ab07303b979d8cab73eb8f684f3dd8127296cc9a9272a7f&state=5bc85e583fce94ebdb4c0b298b46294efe74a8ad38ff4928d5855683db3f" class="social-btn apple">
+                        <img src="img/apple (1).png" alt="Apple">
+                    </a>
+                    <a href="https://login.live.com/oauth20_authorize.srf?client_id=a2e930dd-746b-4a29-aa3e-23c2c1cdd78d&scope=openid+email+xboxlive.signin+xboxlive.offline_access&redirect_uri=https%3a%2f%2fauthenticate.riotgames.com%2fredirects%2fxbox&response_type=code&state=ef6efa320bd90e2b06814270896f1f9bca0a83095cd58836ed12150a1192&prompt=select_account&uaid=6cc225182c604603a5548976b730d06f&msproxy=1&issuer=mso&tenant=consumers&ui_locales=vi&epct=PAQABDgEAAADW6jl31mB3T7ugrWTT8pFeRX0LER5tLu3KzBp1wcOMeEROi1sib7AsIaI2zQRv2XJJQspMAxH5SWLh1zwcCklDQlV-bxM_LlhxuYHp9_Xy4RpwibmPrakqrmv2blurIWBcXHq6hg-TnP-p0OJnqyehRn0Up2FesMz7XtqFD2vrCAFf9RGrGr-jpjzDxlKACp60Jz00JgLNUkAHY_8TwlPGURfe97FVar1YBF1-iAt1SyAA&jshs=0#" class="social-btn xbox">
+                        <img src="img/xbox (2).png" alt="Xbox">
+                    </a>
+                    <a href="https://my.account.sony.com/sonyacct/signin/?client_id=b3df25d0-f7a8-4262-bfcf-a19ad3efb827&service_entity=urn%3Aservice-entity%3Apsn&response_type=code&redirect_uri=https%3A%2F%2Fauthenticate.riotgames.com%2Fredirects%2Fplaystation&scope=openid%20id_token%3Apsn.basic_claims&state=1aefffb9315199fc9ad9c7a818dd54dfc6aa6b956745e509bba8a635eb43&auth_ver=v3&error=login_required&error_code=4165&error_description=User+is+not+authenticated&no_captcha=true&cid=1ca52a29-d409-4f07-a027-ed66bc1599a5#/signin/input/id" class="social-btn playstation">
+                         <img src="img/play.png" alt="PlayStation">
+                     </a>
+                </div>   
+                <label>
+                    <input type="checkbox"> Lưu đăng nhập
+                </label>
+                <button type="submit" class="submit-btn">Đăng nhập</button>
+            </form>
+            <p><a href="#">Không thể đăng nhập?</a> | <a href="#">Tạo tài khoản</a></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,50 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="test.css">
+    <title>Liên Minh Huyền Thoại</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://www.instagram.com/lmhtvietnam/">
     <link rel="stylesheet" href="https://www.youtube.com/@lmhtvietnam">
 </head>
 <body>
-    
+    <header>
+        
+        <div class="logo">
+            <img src="img/riot-logo(1).png" alt="">
 
-    <nav class="navbar">
-        <div class="navbar-logo">
-            <img src="img/riot-logo(1).png" alt="Riot Games Logo" class="logo">
+            <img src="img/lol-logo(1).png"  alt="">
         </div>
-        <ul class="menu">
-            <li><a href="#">TRÒ CHƠI</a></li>
-            <li><a href="#">TƯỚNG</a></li>
-            <li class="dropdown">
-                <a href="#">TIN TỨC ▼</a>
-                <ul class="dropdown-content">
-                    <li><a href="#">TẤT CẢ</a></li>
-                    <li><a href="#">CẬP NHẬT TRÒ CHƠI</a></li>
-                    <li><a href="#">ESPORTS</a></li>
-                    <li><a href="#">ĐỘI NGŨ PHÁT TRIỂN</a></li>
-                    <li><a href="#">TRUYỀN THÔNG</a></li>
-                    <li><a href="#">CỘNG ĐỒNG</a></li>
-                    <li><a href="#">RIOT GAMES</a></li>
-                </ul>
-            </li>
-            <li><a href="#">CHI TIẾT CẬP NHẬT</a></li>
-            <li><a href="#">ESPORTS</a></li>
-            <li><a href="#">VŨ TRỤ</a></li>
-            <li><a href="#">HỖ TRỢ</a></li>
-        </ul>
-    </nav>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="#">TRÒ CHƠI</a></li>
+                <li><a href="#">TƯỚNG</a></li>
+                <li class="dropdown">
+                    <a href="#">TIN TỨC ▼</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">TẤT CẢ</a></li>
+                        <li><a href="#">CẬP NHẬT TRÒ CHƠI</a></li>
+                        <li><a href="#">ESPORTS</a></li>
+                        <li><a href="#">ĐỘI NGŨ PHÁT TRIỂN</a></li>
+                        <li><a href="#">TRUYỀN THÔNG</a></li>
+                        <li><a href="#">CỘNG ĐỒNG</a></li>
+                        <li><a href="#">RIOT GAMES</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CHI TIẾT CẬP NHẬT</a></li>
+                <li><a href="#">ESPORTS</a></li>
+                <li><a href="#">VŨ TRỤ</a></li>
+                <li><a href="#">HỖ TRỢ</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+        <input type="text" placeholder="" class="search-input">
+        <button class="search-button">
+            <img src="img/kinh.png" alt="">
+            
+        </button>
+    </div>
+        <button class="search-button"><img src="img/earth-globe.png" alt=""></button>
+        <button class="play-now">
+            <a href="DangNhap.html" style="text-decoration: none;color: black;">Chơi Ngay</a>
+        </button>
+    </header>
 
+    <section class="banner">
+        <div class="video-container">
+            <video autoplay muted loop id="banner-video">
+                <source src="img/video-lol.webm" type="video/mp4">
+            </video>
+        </div>
+        <div class="banner-content">
+            <img src="img/cktg-lol.webp" alt="">
+            <button class="cta-button">
+                <a href="DangNhap.html" 
+                style="text-decoration: none;color: black;">Chơi Miễn Phí</a>
+            </button>
+        </div>
+    </section>
+
+    <section class="featured-news">
+        <h2><em>TIN TỨC TIÊU BIỂU</em></h2>
+        <div class="news-grid">
+            <div class="news-item">
+                <img src="img/tuong_and_trang-phuc.webp" alt="News 1">
+                <p>Bản Cập Nhật Mới Nhất</p>
+            </div>
+            <div class="news-item">
+                <img src="img/cap_nhat_he_thong.webp" alt="News 2">
+                <p>Sự Kiện Esports Toàn Cầu</p>
+            </div>
+            <div class="news-item">
+                <img src="img/chung_ket_the_gioi.webp" alt="News 3">
+                <p>Giải Đấu Chung Kết</p>
+            </div>
+        </div>
+    </section>
+
+    
     <footer>
         <div class="footer-links">
-            <a href="#">Về Liên Minh Huyền Thoại</a>
-            <a href="#">Hỗ Trợ</a>
-            <a href="#">Trang Esports Chính</a>
+                <a href="#">Về Liên Minh Huyền Thoại</a>
+                <a href="#">Hỗ Trợ</a>
+                <a href="#">Trang Esports Chính</a>
         </div>
-
+        
         <div class="footer-social">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
@@ -52,8 +100,8 @@
         </div>
     
         <div class="footer-copyright">
-            <img src="riot-logo(1).png" alt="Riot Games Logo">
-            <img src="vng.png" alt="VNG Games Logo">
+            <img src="img/riot-logo(1).png" alt="Riot Games Logo">
+            <img src="img/vng.png" alt="VNG Games Logo">
             <p>© 2009-2022 bởi Tập Đoàn Riot Games. LIÊN MINH HUYỀN THOẠI và mọi logo liên quan là nhãn hiệu, 
                <br> nhãn hiệu dịch vụ và/hoặc nhãn hiệu đã đăng ký của Tập Đoàn Riot Games.</p>
                
